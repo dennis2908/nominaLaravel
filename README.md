@@ -4,7 +4,7 @@
 
 - install composer,laravel 8.31.0, php 7.3 64 Bit</br>
 - git clone https://github.com/dennis2908/nominaLaravel </br>
-- buka cmd dan lalu ketik composer install </br>
+- buka cmd dan lalu ketik composer update </br>
 - Hapus file .env <br>
 - rename file .env.mysql ke .env<br>
 - buka file .env dan edit DB_HOST, DB_PORT, DB_DATABASE, DB_USERNAME, </br>
