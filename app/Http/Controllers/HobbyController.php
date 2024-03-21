@@ -20,6 +20,13 @@ class HobbyController extends Controller
 		return response()->json(['result'=>$data]);
     }
 
+    public function dataList()
+    {
+        $data = Hobby::latest()->get();
+		
+		return response()->json(['result'=>$data]);
+    }
+
     /**
      * Show the form for creating a new resource.
      *
